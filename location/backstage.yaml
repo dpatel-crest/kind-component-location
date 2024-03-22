@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: in-location-backstage-yaml
+  title: in-location-backstage-yaml
+  description: Component for in-location-backstage-yaml
+  annotations:
+    github.com/project-slug: in-location-backstage-yaml
+  tags: 
+    - nodejs
+spec:
+  type: service
+  owner: unknown
+  lifecycle: experimental
