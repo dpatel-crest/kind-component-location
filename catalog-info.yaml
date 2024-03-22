@@ -1,0 +1,25 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: kind-component-location
+  title: kind-component-location
+  description: Component for kind-component-location
+  annotations:
+    github.com/project-slug: kind-component-location
+  tags: 
+    - nodejs
+spec:
+  type: service
+  owner: unknown
+  lifecycle: experimental
+---
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: kind-componenet-location
+spec:
+  type: url
+  owner: dhrumit
+  lifecycle: experimental
+  targets:
+    - ./location/backstage.yaml
